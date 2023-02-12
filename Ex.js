@@ -6,7 +6,7 @@ class StrictEqualityExtension {
       blocks: [
         {
           opcode: 'strictlyEquals',
-          blockType: Scratch.BlockType.BOOLEAN,
+          blockType: Scratch.BlockType.COMMAND,
           text: 'open[ONE]',
           arguments: {
             ONE: {
